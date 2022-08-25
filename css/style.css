@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Edu+TAS+Beginner:wght@500&family=Gentium+Book+Plus:ital,wght@1,400;1,700&family=Playfair+Display:ital,wght@1,500&family=Poppins:ital,wght@1,100&family=Roboto:wght@100&display=swap');
+
 .section-1
 {
   display: flex;
@@ -45,4 +47,8 @@ p
   color: rgb(230, 201, 173);
   font-weight: bold;
  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.swal2-popup {
+  font-size: 1rem !important;
+  font-family: 'Edu TAS Beginner', cursive;
 }
