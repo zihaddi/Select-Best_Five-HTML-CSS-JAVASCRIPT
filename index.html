@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select Best Five</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Edu+TAS+Beginner:wght@500&family=Gentium+Book+Plus:ital,wght@1,400;1,700&family=Playfair+Display:ital,wght@1,500&family=Poppins:ital,wght@1,100&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="bg_color text-white">
+  <!-- front section-->
+  <section class="section-1">
+    <div class="slide-text half-portion">
+      <h1 class="text-center tcolor" style="font-family: 'Edu TAS Beginner', cursive;">Select Your Best Five</h1>
+      <p class="text-center  w-50 m-auto">FIFA’s iconic competitions inspire billions of football fans and provide opportunities to have a wider positive social and environmental impact.
+
+        By the global nature of the tournaments it organises, FIFA strives to set the benchmark in the delivery of global sporting events as an inspiration for all audience groups, from fans attending the competition to the general public.</p><br>
+      </div>
+  </section>
+  <!-- front section-->
+
+  <!-- body section -->
+  <section class="container">
+    <div class="row">
+      <div class="col-8 d-flex flex-wrap  justify-content-between ">
+              <div class="card mt-2" style="width: 12rem;">
+                <img src="./images/messi.png" class="card-img-top" alt="...">
+                
+                  <div class="card-body text-center bg-dark">
+                    <h5 id="name1" class="text-center bg-dark " style="font-family: 'Edu TAS Beginner', cursive;">Lionel Messi</h5>
+                   <p class="card-title">36 goal   .   120 Assist</p>           
+                   <button id="select1"  class="btn btn-primary">Select</button>
+                  </div>
+              </div>
+              <div class="card mt-2" style="width: 12rem;">
+                <img src="./images/neymar.png" class="card-img-top" alt="...">
+               
+                  <div class="card-body text-center bg-dark">
+                    <h5 id="name2" class="text-center" style="font-family: 'Edu TAS Beginner', cursive;">Neymar Jr</h5>
+                      <p class="card-title">36 goal   .   120 Assist</p>           
+                      <button id="select2" class="btn btn-primary">Select</button>
+                  </div>
+              </div>
+              <div class="card mt-2" style="width: 12rem;">
+                <img src="./images/mbappe.png" class="card-img-top" alt="...">
+                
+                  <div class="card-body text-center bg-dark">
+                    <h5 id="name3" class="text-center" style="font-family: 'Edu TAS Beginner', cursive;">Kylian Mbappé</h5>
+                      <p class="card-title">36 goal   .   120 Assist</p>           
+                      <button id="select3" class="btn btn-primary">Select</button>
+                  </div>
+              </div>
+              <div class="card mt-2" style="width: 12rem;">
+                <img src="./images/vitor.png" class="card-img-top" alt="...">
+                
+                  <div class="card-body text-center bg-dark">
+                    <h5 id="name4" class="text-center" style="font-family: 'Edu TAS Beginner', cursive;">Vítor Machado</h5>
+                      <p class="card-title">36 goal   .   120 Assist</p>           
+                      <button id="select4" class="btn btn-primary">Select</button>
+                  </div>
+              </div>
+              <div class="card mt-2" style="width: 12rem;">
+                <img src="./images/ramos.png" class="card-img-top" alt="...">
+               
+                  <div class="card-body text-center bg-dark">
+                    <h5 id="name5" class="text-center" style="font-family: 'Edu TAS Beginner', cursive;">Sergio Ramos</h5>
+                      <p class="card-title">36 goal   .   120 Assist</p>           
+                      <button id="select5" class="btn btn-primary">Select</button>
+                  </div>
+              </div>
+              <div class="card mt-2" style="width: 12rem;">
+                <img src="./images/renoto.png" class="card-img-top" alt="...">
+               
+                  <div class="card-body text-center bg-dark">
+                    <h5 id="name6" class="text-center" style="font-family: 'Edu TAS Beginner', cursive;">Renato Sanches</h5>
+                      <p class="card-title">36 goal   .   120 Assist</p>           
+                    <button id="select6" class="btn btn-primary">Select</button>
+                  </div>
+              </div>
+      </div>
+        <!-- body section -->
+      <div class="col-3 mt-2 ">
+        <!-- select five -->
+        <div class="card bg-dark pt-2" style="width: 18rem; ">
+          <h5 class="text-center " style="font-family: 'Edu TAS Beginner', cursive;">Selected Five</h5>
+            <div class="card-body text-center">
+               <ol id="ull">
+                
+               </ol>
+            </div>
+        </div>
+        <!-- select five -->
+
+        <!-- budget -->
+        <div class="card container mt-2 bg-dark pt-2" style="width: 18rem;">
+          <h5 class="text-center " style="font-family: 'Edu TAS Beginner', cursive;">Budget</h5>
+          <div class="d-flex justify-content-between align-items-center">
+            <p  class="w-50 ms-1 mt-3" >Per Person</p> 
+            <input id="perPlayer" class="mb-3 me-3 mt-3 w-50 ps-3 pe-2 rounded" type="text" value="">
+          </div>
+            <button class="btn btn-primary mt-2 ms-1 me-1 mb-2" id="calculate">Calculate </button><br>
+            <p class="bcolor">Player Expense = $<span id="expense">00</span></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <p  class="w-50 ms-1 mt-3" >Manager</p> 
+              <input id="manager" class="mb-3 me-3 mt-3 w-50 ps-3 pe-2 rounded" type="text">
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="w-50 ms-1 mt-3" >Coach</p> 
+              <input id="coach" class="mb-3 me-3 mt-3 w-50 ps-3 pe-2 rounded" type="text">
+            </div>
+            <button class="btn btn-primary mt-2 ms-1 me-1 mb-2" id="calculateTotal">Calculate Total</button><br>
+            <p class="bcolor">Total    = $<span id="expenseTotal">00</span></p>
+        </div>
+          <!-- budget -->
+      </div>
+    </div> 
+  </section>
+  <script src="./js/select.js"></script>
+  <script src="./js/calculation.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+ 
+</body>
+</html>

@@ -1,0 +1,48 @@
+.section-1
+{
+  display: flex;
+  margin-top:50px;
+  margin-left: 75px;
+  margin-right: 75px;
+  background-color: #161616;
+  border-radius: 10px;
+  height: 50vh;
+  align-items: center;
+  
+}
+
+h1
+{
+  font-size: 40px;
+  font-size: 3vw;
+}
+p
+{
+  font-size:  .8em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3vw;
+}
+.half-portion
+{
+  width: 100%;
+  padding: 2%;
+  color: white;
+}
+
+
+.bg_color
+{
+  background-color: rgb(61, 57, 57);
+}
+
+.tcolor
+{
+  color: chocolate;
+}
+
+.bcolor
+{
+  color: rgb(230, 201, 173);
+  font-weight: bold;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
