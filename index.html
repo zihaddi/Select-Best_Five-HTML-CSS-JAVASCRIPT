@@ -10,6 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Edu+TAS+Beginner:wght@500&family=Gentium+Book+Plus:ital,wght@1,400;1,700&family=Playfair+Display:ital,wght@1,500&family=Poppins:ital,wght@1,100&family=Roboto:wght@100&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
+  
 </head>
 <body class="bg_color text-white">
   <!-- front section-->
@@ -102,7 +103,7 @@
             <p  class="w-50 ms-1 mt-3" >Per Person</p> 
             <input id="perPlayer" class="mb-3 me-3 mt-3 w-50 ps-3 pe-2 rounded" type="text" value="">
           </div>
-            <button class="btn btn-primary mt-2 ms-1 me-1 mb-2" id="calculate">Calculate </button><br>
+            <button class="btn btn-primary mt-2 ms-1 me-1 mb-2" id="calculate" >Calculate </button><br>
             <p class="bcolor">Player Expense = $<span id="expense">00</span></p>
             <div class="d-flex justify-content-between align-items-center">
               <p  class="w-50 ms-1 mt-3" >Manager</p> 
@@ -112,15 +113,17 @@
               <p class="w-50 ms-1 mt-3" >Coach</p> 
               <input id="coach" class="mb-3 me-3 mt-3 w-50 ps-3 pe-2 rounded" type="text">
             </div>
-            <button class="btn btn-primary mt-2 ms-1 me-1 mb-2" id="calculateTotal">Calculate Total</button><br>
+            <button class="btn btn-primary mt-2 ms-1 me-1 mb-2" id="calculateTotal" >Calculate Total</button ><br>
             <p class="bcolor">Total    = $<span id="expenseTotal">00</span></p>
         </div>
           <!-- budget -->
       </div>
     </div> 
   </section>
+
   <script src="./js/select.js"></script>
   <script src="./js/calculation.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
  
 </body>

@@ -14,7 +14,7 @@ function action()
   }
   else
   {
-    alert("You Cant Add More Than 5 Player")
+    Swal.fire("You Cant Add More Than 5 Player")
   }
 
 }

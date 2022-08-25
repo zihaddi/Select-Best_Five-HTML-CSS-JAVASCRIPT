@@ -10,10 +10,16 @@ calculate.addEventListener('click',function()
   const perPlayer = document.getElementById("perPlayer")
   const perPlayerValue = perPlayer.value;
   const expense = document.getElementById('expense')
-  const exexx =parseInt(expense.innerText)
-  
+ //' const exexx =parseInt(expense.innerText)
+  if(isNaN(parseInt(perPlayerValue))  == true || exexx.innerText == '' )
+  {
+        Swal.fire('Wrong Input Type For Calculator')
+  }
+  else
+  {
     expense.innerText = (parseInt(perPlayerValue) * parseInt(numberOfList)).toString()
     perPlayer.value= ''
+  }
 })
 
 const calculateTotal = document.getElementById('calculateTotal')
@@ -35,7 +41,7 @@ calculateTotal.addEventListener('click',function()
   
   if(isNaN(total)  == true  )
   {
-        alert('Wrong Input Type For Calculator')
+        Swal.fire('Wrong Input Type For Calculate Total')
   }
   else
   {
