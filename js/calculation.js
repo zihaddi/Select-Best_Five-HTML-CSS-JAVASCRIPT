@@ -13,7 +13,11 @@ calculate.addEventListener('click',function()
  //' const exexx =parseInt(expense.innerText)
   if(isNaN(parseInt(perPlayerValue))  == true || exexx.innerText == '' )
   {
-        Swal.fire('Wrong Input Type For Calculator')
+        Swal.fire({
+          html:
+            '<p style="font-size:25px;font-family:Edu TAS Beginner, cursive">Wrong Input Type For Calculate<p>'  
+            
+        })
   }
   else
   {
@@ -41,7 +45,12 @@ calculateTotal.addEventListener('click',function()
   
   if(isNaN(total)  == true  )
   {
-        Swal.fire('Wrong Input Type For Calculate Total')
+      
+        Swal.fire({
+          html:
+            '<p style="font-size:25px;font-family:Edu TAS Beginner, cursive">Wrong Input Type For Calculate Total<p>'  
+            
+        })
   }
   else
   {

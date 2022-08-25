@@ -14,7 +14,12 @@ function action()
   }
   else
   {
-    Swal.fire("You Cant Add More Than 5 Player")
+    
+    Swal.fire({
+      html:
+        '<p style="font-size:25px;font-family:Edu TAS Beginner, cursive">You Cant Add More Than 5 Player, <p>'  
+        
+    })
   }
 
 }
