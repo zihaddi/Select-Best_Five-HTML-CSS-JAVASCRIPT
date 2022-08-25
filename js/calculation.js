@@ -11,7 +11,7 @@ calculate.addEventListener('click',function()
   const perPlayerValue = perPlayer.value;
   const expense = document.getElementById('expense')
  //' const exexx =parseInt(expense.innerText)
-  if(isNaN(parseInt(perPlayerValue))  == true || exexx.innerText == '' )
+  if(isNaN(parseInt(perPlayerValue))  == true || perPlayerValue.value == '' )
   {
         Swal.fire({
           html:
